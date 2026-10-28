@@ -32,10 +32,11 @@ The environment is synthetic and uncalibrated. The principal soft model permits 
 
 | File | Purpose |
 |---|---|
-| `report.ipynb` | English technical report, complete simulation and analysis code, and saved figures and tables |
+| `report.ipynb` | Technical report, complete simulation and analysis code, and saved figures and tables |
+| `index.html` | Technical report in html format |
 | `replay.html` | Self-contained 1,000-step replay; opens directly in a browser |
 | `prerevised_project_submissions/codes.html` | Prerevised working notebook, submitted as the project delivery |
-| `prerevised_project_submissions/presentation.pdf` | Presentation slides, submitted as the project selivery |
+| `prerevised_project_submissions/presentation.pdf` | Presentation slides, submitted as the project delivery |
 | `data/threshold_comparison.csv` | Per-trial results for all 540 comparisons |
 | `data/condition_statistics.csv` | Group means and variances for the recorded comparisons |
 | `data/diagnostics.json`, `data/diagnostic_trace.csv` | Summary and complete trace of the 10,000-step HMM diagnostic |
