@@ -1,0 +1,65 @@
+{
+  "seed": 61000,
+  "steps": 10000,
+  "accuracy": 0.9391,
+  "mean_confidence": 0.9388625676192535,
+  "confidence_std": 0.1081982871383795,
+  "bin_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    306,
+    345,
+    468,
+    746,
+    8135
+  ],
+  "wrong_estimate_counts": [
+    255,
+    299,
+    55
+  ],
+  "transition_counts": [
+    [
+      4045,
+      1003,
+      0
+    ],
+    [
+      1004,
+      2784,
+      190
+    ],
+    [
+      0,
+      190,
+      783
+    ]
+  ],
+  "transition_error_counts": [
+    [
+      104,
+      158,
+      0
+    ],
+    [
+      105,
+      120,
+      55
+    ],
+    [
+      0,
+      31,
+      35
+    ]
+  ],
+  "subtasks": 830,
+  "cycles": 276,
+  "total_energy": 13536.788487831478,
+  "mean_velocity": 6.254519702129001,
+  "velocity_variance": 3.8837900176600817,
+  "deficit_steps": 46,
+  "peak_energy_debt": 20.15960171602641
+}

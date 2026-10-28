@@ -1,0 +1,76 @@
+{
+  "experiment": {
+    "file": "threshold_comparison.csv",
+    "runs": 540,
+    "horizon": 720,
+    "seed_range_inclusive": [
+      50000,
+      50029
+    ],
+    "paired_seeds": true,
+    "velocity_policies": [
+      "linear",
+      "expected_ratio",
+      "ratio_of_expectations"
+    ],
+    "threshold_pairs": [
+      [
+        10,
+        30
+      ],
+      [
+        20,
+        40
+      ],
+      [
+        30,
+        50
+      ]
+    ],
+    "battery_modes": [
+      "soft",
+      "hard"
+    ],
+    "design": "Exploratory comparison on a predefined policy and threshold grid."
+  },
+  "diagnostic": {
+    "seed": 61000,
+    "steps": 10000,
+    "velocity_policy": "expected_ratio",
+    "thresholds": [
+      20,
+      40
+    ],
+    "battery_mode": "soft"
+  },
+  "replay": {
+    "seed": 50006,
+    "steps": 1000,
+    "battery_mode": "soft",
+    "velocity_policy": "expected_ratio",
+    "thresholds": [
+      20,
+      40
+    ],
+    "terminated": false,
+    "energy_exhausted": true,
+    "completed_subtasks": 85,
+    "total_energy": 1360.2329743019532,
+    "selection": "Fixed-seed complete 1,000-step trajectory; soft energy debt is permitted; aggregate trials unchanged."
+  },
+  "environment": {
+    "python": "3.12",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "pandas": "3.0.1"
+  },
+  "movement_probability": "v/8 conditional on controlled velocity; no additional traffic-state effect",
+  "checksums_sha256": {
+    "threshold_comparison.csv": "0b21fa8eb2faae701f8b9675d772942cb59c394354ae265f22622ce782004957",
+    "diagnostics.json": "80aa8cfb9254edc5cddfa5c6d619d57856c4fd8a2c24e52f07f59baee901d684",
+    "diagnostic_trace.csv": "5616e73729ddc0fc6297fec96c156e756afa1132225b4bcfa10d854cf0a0bede",
+    "condition_statistics.csv": "f606bd6f25f478bfd91c7c762e500325943673560eeff99cbea0d614a72cd571",
+    "replay.json": "4d088013e3c1a9d1328564246d7a1fe3cb7f28d45b0cb6a1521ef7c54dabd9d0"
+  }
+}
