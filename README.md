@@ -5,7 +5,7 @@ Reproduction guidelines are provided.
 
 **Author:** LI Zong-Ye · **Course:** SYE4036 System Modelling and Optimization, City University of Hong Kong
 
-[Technical report and code](report.ipynb) · [Interactive simulation replay](https://zong-ye-li.github.io/SYE4036-stochastic-agv/replay.html)
+[Technical report and code](https://zong-ye-li.github.io/SYE4036-stochastic-agv/) · [Interactive simulation replay](https://zong-ye-li.github.io/SYE4036-stochastic-agv/replay.html)
 
 ## Versions
 
