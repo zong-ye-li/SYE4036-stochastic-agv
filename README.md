@@ -7,6 +7,8 @@ Reproduction guidelines are provided.
 
 [Technical report and code](https://zong-ye-li.github.io/SYE4036-stochastic-agv/) · [Interactive simulation replay](https://zong-ye-li.github.io/SYE4036-stochastic-agv/replay.html)
 
+![Interactive simulation replay](image.png)
+
 ## Versions
 
 Oct 2026: The archieves presented in this repo were revised using GenAI, which removed several bugs and expression errors.  
